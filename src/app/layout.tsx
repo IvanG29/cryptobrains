@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Head from "../components/Head";
+import Footer from "../components/Footer";
 import GravityParticles from "../components/GravityParticles";
 import "./globals.css";
 
@@ -28,9 +30,11 @@ export default function RootLayout({
       lang="ru"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="relative bg-black text-white min-h-screen">
+      <body className="">
+        <Head />
         <GravityParticles />
         {children}
+        <Footer />
       </body>
     </html>
   );
