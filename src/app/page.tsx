@@ -325,7 +325,7 @@ export default function Home() {
               {coins.map((coin) => (
                 <div
                   key={coin.symbol}
-                  className="h-105 py-6 rounded-xl border border-background"
+                  className="h-105 py-6 cursor-pointer rounded-xl bg-colorCard border border-colorCard brightness-85 contrast-105 saturate-90  hover:drop-shadow-[0_0_10px_rgba(88,101,242,0.6)] transition delay-150 duration-300 ease-in-ou hover:-translate-y-4"
                 >
                   <div className="flex justify-center items-center gap-3 mb-6">
                     <div className="rounded-full bg-background flex items-center justify-center font-bold">
@@ -383,7 +383,7 @@ export default function Home() {
               {steps.map((step, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center w-100 h-110 mb-30 rounded-2xl bg-colorCard border border-colorCard brightness-85 contrast-105 saturate-90  hover:drop-shadow-[0_0_10px_rgba(88,101,242,0.6)] transition delay-150 duration-300 ease-in-ou hover:-translate-y-4"
+                  className="flex flex-col items-center w-100 h-110 mb-30 cursor-pointer rounded-2xl bg-colorCard border border-colorCard brightness-85 contrast-105 saturate-90  hover:drop-shadow-[0_0_10px_rgba(88,101,242,0.6)] transition delay-150 duration-300 ease-in-ou hover:-translate-y-4"
                 >
                   <div className="w-16 h-16 rounded-2xl flex items-center justify-center mt-15 ">
                     <img
@@ -433,7 +433,7 @@ export default function Home() {
               {choose.map((choose, index) => (
                 <div
                   key={index}
-                  className="flex justify-items-start gap-3 brightness-85 contrast-105 saturate-90  hover:drop-shadow-[0_0_50px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou hover:-translate-y-5"
+                  className="flex justify-items-start gap-3 brightness-85 contrast-105 saturate-90  hover:drop-shadow-[0_0_50px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou hover:-translate-y-2"
                 >
                   <span className="w-15 h-20 mr-5 text-6xl text-color">
                     {choose.num}
@@ -447,7 +447,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="flex justify-center items-center h-24">
-                    <button className=" text-colorGray text-lg leading-7 gap-2">
+                    <button className="text-colorGray text-lg leading-7 cursor-pointer gap-2">
                       {choose.button}
                     </button>
                     <Image

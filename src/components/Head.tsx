@@ -15,7 +15,7 @@ export default function Head() {
             className=""
           />
         </Link>
-        <div className="xl:flex hidden">
+        <div className="">
           <nav className="flex justify-between gap-20 ">
             <li className="list-none text-xl  hover:text-blue-500/80">
               <Link href="/market">Market</Link>
@@ -36,10 +36,16 @@ export default function Head() {
         </div>
         <div className="">
           <nav className="flex justify-between items-center gap-5 text-colorall">
-            <li className="hidden md:text list-none text-xl">Log in</li>
-            <li className="list-none text-xl border-2 border-blue-500 p-2 rounded-2xl bg-blue-500">
-              Sign up
-            </li>
+            <Link href="/login">
+              <li className="list-none text-xl hover:text-blue-500/80">
+                Log in
+              </li>
+            </Link>
+            <Link href="/auth">
+              <li className="list-none text-xl border-2 border-blue-500 p-2 rounded-2xl bg-blue-500 hover:text-blue-800/85">
+                Sign up
+              </li>
+            </Link>
           </nav>
         </div>
       </div>
