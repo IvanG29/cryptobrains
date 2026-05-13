@@ -229,7 +229,7 @@ export default function SignUpPage() {
 
       <div className="hidden md:flex w-1/2 items-center justify-center p-12">
         <Image
-          src="/img.svg"
+          src="/Auth.svg"
           alt="Описание картинки"
           width={811}
           height={811}
