@@ -19,8 +19,8 @@ export default function SignUpPage() {
   };
 
   return (
-    <div className="flex min-h-screen flex-col md:flex-row text-white font-sans">
-      <div className="flex w-full flex-col justify-center px-6 py-12 md:w-1/2 lg:px-20 xl:px-32">
+    <div className="flex min-h-screen flex-col md:flex-row text-colorall font-sans">
+      <div className="flex w-full flex-col justify-center px-6 py-36 md:w-1/2 lg:px-20 xl:px-32">
         <div className="mx-auto w-full max-w-sm">
           <h2 className="text-[36px] font-semibold tracking-tight text-center md:text-center mb-8">
             Sign Up
@@ -104,7 +104,7 @@ export default function SignUpPage() {
                 }
                 placeholder="Type here"
                 required
-                className="w-full rounded-md px-3 py-3 text-base leading-6 text-white placeholder-color outline-hidden border border-transparent focus:border-blue-500 transition-colors"
+                className="w-full rounded-md px-3 py-3 text-base leading-6 text-colorall placeholder-color outline-hidden border border-transparent focus:border-blue-500 transition-colors"
               />
             </div>
 
@@ -125,12 +125,12 @@ export default function SignUpPage() {
                   }
                   placeholder="Type here"
                   required
-                  className="w-full rounded-md px-3 py-3 pr-10 text-base leading-6 text-white placeholder-color outline-hidden border border-transparent focus:border-blue-500 transition-colors"
+                  className="w-full rounded-md px-3 py-3 pr-10 text-base leading-6 text-colorall placeholder-color outline-hidden border border-transparent focus:border-blue-500 transition-colors"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-500 hover:text-gray-300 cursor-pointer"
+                  className="absolute inset-y-0 right-0 flex items-center pr-3 text-color hover:text-colorall cursor-pointer"
                 >
                   {showPassword ? (
                     <svg
@@ -169,7 +169,7 @@ export default function SignUpPage() {
                   )}
                 </button>
               </div>
-              <p className="mt-1.5 text-base text-right text-color">
+              <p className="mt-1.5 text-base leading-6 text-right text-color">
                 Password must be at least 8 characters long
               </p>
             </div>
@@ -184,10 +184,10 @@ export default function SignUpPage() {
                     setAgreeTerms(e.target.checked)
                   }
                   required
-                  className="h-4 w-4 rounded-sm border-gray-700 bg-[#12131a] text-blue-600 focus:ring-blue-500 focus:ring-offset-gray-900 cursor-pointer"
+                  className="h-4 w-4 rounded-sm border-color text-blue-600 focus:ring-blue-500 focus:ring-offset-gray-900 cursor-pointer"
                 />
               </div>
-              <div className="ml-3 text-sm">
+              <div className="ml-3 text-base leading-6">
                 <label htmlFor="terms" className="text-color">
                   I Agree To The Website{" "}
                   <Link href="/login" className="text-colorall hover:underline">
@@ -199,15 +199,15 @@ export default function SignUpPage() {
 
             <button
               type="submit"
-              className="w-full rounded-md bg-[#2563eb] py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors cursor-pointer"
+              className="w-full rounded-md bg-[#2563eb] py-3 text-base leading-6 font-medium text-colorall hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors cursor-pointer"
             >
               Sign Up
             </button>
-            <div className="text-center text-xs leading-6 text-colorall">
+            <div className="text-center text-base leading-6 text-colorall">
               Have an Account?{" "}
               <Link
                 href="/login"
-                className="text-gray-300 hover:text-white font-medium transition-colors"
+                className="text-color hover:text-colorall font-medium transition-colors"
               >
                 Login Here
               </Link>
@@ -215,7 +215,7 @@ export default function SignUpPage() {
           </form>
         </div>
 
-        <div className="mt-auto pt-8 text-center text-base leading-6 text-colorall">
+        <div className="mt-auto pt-8 text-center text-base leading-6 text-color">
           Copyright 2023 All Rights Reserved
         </div>
       </div>

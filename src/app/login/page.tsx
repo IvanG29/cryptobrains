@@ -26,7 +26,7 @@ export default function LoginPage() {
             <div>
               <label
                 htmlFor="email"
-                className="block text-base text-gray-400 mb-2"
+                className="block text-base leading-6 text-color mb-2"
               >
                 Email or Phone
               </label>
@@ -39,13 +39,13 @@ export default function LoginPage() {
                 }
                 placeholder="Type here"
                 required
-                className="w-full rounded-md px-3 py-3 text-base text-white placeholder-gray-600 outline-hidden border border-transparent focus:border-blue-500 transition-colors"
+                className="w-full rounded-md px-3 py-3 text-base leading-6 text-colorall placeholder-color outline-hidden border border-transparent focus:border-blue-500 transition-colors"
               />
             </div>
             <div>
               <label
                 htmlFor="password"
-                className="block text-base text-gray-400 mb-2"
+                className="block text-base leading-6 text-color mb-2"
               >
                 Password
               </label>
@@ -59,12 +59,12 @@ export default function LoginPage() {
                   }
                   placeholder="Type here"
                   required
-                  className="w-full rounded-md px-3 py-3 pr-10 text-base text-white placeholder-gray-600 outline-hidden border border-transparent focus:border-blue-500 transition-colors"
+                  className="w-full rounded-md px-3 py-3 pr-10 text-base text-colorall placeholder-color outline-hidden border border-transparent focus:border-blue-500 transition-colors"
                 />
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-500 hover:text-gray-300 cursor-pointer"
+                  className="absolute inset-y-0 right-0 flex items-center pr-3 text-color hover:text-colorall cursor-pointer"
                 >
                   {showPassword ? (
                     <svg
@@ -106,24 +106,24 @@ export default function LoginPage() {
             </div>
             <button
               type="submit"
-              className="w-full rounded-md bg-[#2563eb] py-3 text-base font-medium text-white hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors cursor-pointer"
+              className="w-full rounded-md bg-[#2563eb] py-3 text-base font-medium text-colorall hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors cursor-pointer"
             >
               Login
             </button>
             <div className="text-center">
               <Link
-                href="/"
-                className="text-base text-gray-400 hover:text-white transition-colors"
+                href="/forgot-password"
+                className="text-base leading-6 text-color hover:text-colorall transition-colors"
               >
                 Forgot Password?
               </Link>
             </div>
 
-            <div className="text-center text-base text-gray-500">
+            <div className="text-center text-base leading-6 text-color">
               Don't have an account?{" "}
               <Link
                 href=""
-                className="text-gray-300 hover:text-white font-medium transition-colors"
+                className="text-color hover:text-colorall font-medium transition-colors"
               >
                 Sign Up Now
               </Link>
@@ -131,7 +131,7 @@ export default function LoginPage() {
           </form>
         </div>
 
-        <div className="mt-auto pt-8 text-center text-base text-gray-600">
+        <div className="mt-auto pt-8 text-center text-base leading-6 text-color">
           Copyright 2023 All Rights Reserved
         </div>
       </div>
