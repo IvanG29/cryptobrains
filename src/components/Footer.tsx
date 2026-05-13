@@ -20,44 +20,54 @@ export default function Footer() {
               <p className="text-colorall text-xl font-semibold">Community</p>
               <ul className="flex items-start gap-2">
                 <li>
-                  <Image
-                    src="/brand-discord.svg"
-                    alt="Описание картинки"
-                    width={25}
-                    height={25}
-                  />
+                  <Link href="/login" className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou">
+                    <Image
+                      src="/brand-discord.svg"
+                      alt="Описание картинки"
+                      width={25}
+                      height={25}
+                    />
+                  </Link>
                 </li>
                 <li>
-                  <Image
-                    src="/brand-telegram.svg"
-                    alt="Описание картинки"
-                    width={25}
-                    height={25}
-                  />
+                  <Link href="/login" className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou">
+                    <Image
+                      src="/brand-telegram.svg"
+                      alt="Описание картинки"
+                      width={25}
+                      height={25}
+                    />
+                  </Link>
                 </li>
                 <li>
-                  <Image
-                    src="/brand-instagram.svg"
-                    alt="Описание картинки"
-                    width={25}
-                    height={25}
-                  />
+                  <Link href="/login" className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou">
+                    <Image
+                      src="/brand-instagram.svg"
+                      alt="Описание картинки"
+                      width={25}
+                      height={25}
+                    />
+                  </Link>
                 </li>
                 <li>
-                  <Image
-                    src="/brand-linkedin.svg"
-                    alt="Описание картинки"
-                    width={25}
-                    height={25}
-                  />
+                  <Link href="/login" className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou">
+                    <Image
+                      src="/brand-linkedin.svg"
+                      alt="Описание картинки"
+                      width={25}
+                      height={25}
+                    />
+                  </Link>
                 </li>
                 <li>
-                  <Image
-                    src="/brand-youtube.svg"
-                    alt="Описание картинки"
-                    width={25}
-                    height={25}
-                  />
+                  <Link href="/login" className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou">
+                    <Image
+                      src="/brand-youtube.svg"
+                      alt="Описание картинки"
+                      width={25}
+                      height={25}
+                    />
+                  </Link>
                 </li>
               </ul>
             </nav>
@@ -69,37 +79,101 @@ export default function Footer() {
                 Crypto Brains
               </h1>
               <ul className="text-color mt-4">
-                <li className="pb-2">About Us</li>
-                <li className="pb-2">Our Team</li>
-                <li className="pb-2">Road Map</li>
-                <li className="pb-2">Risk Disclosure</li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    About Us
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Our Team
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Road Map
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Risk Disclosure
+                  </Link>
+                </li>
               </ul>
             </nav>
             <nav className="mt-10">
               <h1 className="text-colorall text-xl font-semibold">Knowledge</h1>
               <ul className="text-color mt-4">
-                <li className="pb-2">F.A.Q.</li>
-                <li className="pb-2">Articals</li>
-                <li className="pb-2">Video Tutorial</li>
-                <li className="pb-2">Beginner’s Guide</li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    F.A.Q.
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Articals
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Video Tutorial
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Beginner’s Guide
+                  </Link>
+                </li>
               </ul>
             </nav>
             <nav className="mt-10">
               <h1 className="text-colorall text-xl font-semibold">Services</h1>
               <ul className="text-color mt-4">
-                <li className="pb-2">API Service</li>
-                <li className="pb-2">Token Listing</li>
-                <li className="pb-2">API Document</li>
-                <li className="pb-2">Ticket Services</li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    API Service
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Token Listing
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    API Document
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Ticket Services
+                  </Link>
+                </li>
               </ul>
             </nav>
             <nav className="mt-10">
               <h1 className="text-colorall text-xl font-semibold">Exchange</h1>
               <ul className="text-color mt-4">
-                <li className="pb-2">P2P</li>
-                <li className="pb-2">Referral</li>
-                <li className="pb-2">Markets</li>
-                <li className="pb-2">Affiliate Program</li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    P2P
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Referral
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Markets
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Affiliate Program
+                  </Link>
+                </li>
               </ul>
             </nav>
             <nav className="mt-10">
@@ -107,18 +181,46 @@ export default function Footer() {
                 Support Sevice
               </h1>
               <ul className="text-color mt-4">
-                <li className="pb-2">Career</li>
-                <li className="pb-2">Comunity</li>
-                <li className="pb-2">Customer Chat</li>
-                <li className="pb-2">Technical Support</li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Career
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Comunity
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Customer Chat
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Technical Support
+                  </Link>
+                </li>
               </ul>
             </nav>
             <nav className="mt-10">
               <h1 className="text-colorall text-xl font-semibold">Press</h1>
               <ul className="text-color mt-4">
-                <li className="pb-2">Blog</li>
-                <li className="pb-2">News</li>
-                <li className="pb-2">Events</li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Blog
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    News
+                  </Link>
+                </li>
+                <li className="list-none text-base hover:text-blue-500/80">
+                  <Link href="/login" className="pb-2">
+                    Events
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>

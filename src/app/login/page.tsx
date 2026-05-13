@@ -16,7 +16,6 @@ export default function LoginPage() {
 
   return (
     <div className="flex min-h-screen flex-col md:flex-row text-colorall">
-      {/* Левая сторона: Форма входа */}
       <div className="flex w-full flex-col justify-center px-6 py-36 md:w-1/2 lg:px-20 xl:px-32">
         <div className="mx-auto w-full max-w-sm">
           <h2 className="text-[36px] font-semibold tracking-tight text-center md:text-center mb-8">
@@ -24,7 +23,6 @@ export default function LoginPage() {
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-6">
-            {/* Поле Email */}
             <div>
               <label
                 htmlFor="email"
@@ -44,8 +42,6 @@ export default function LoginPage() {
                 className="w-full rounded-md px-3 py-3 text-base text-white placeholder-gray-600 outline-hidden border border-transparent focus:border-blue-500 transition-colors"
               />
             </div>
-
-            {/* Поле Пароль */}
             <div>
               <label
                 htmlFor="password"
@@ -108,16 +104,12 @@ export default function LoginPage() {
                 </button>
               </div>
             </div>
-
-            {/* Кнопка отправки */}
             <button
               type="submit"
               className="w-full rounded-md bg-[#2563eb] py-3 text-base font-medium text-white hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors cursor-pointer"
             >
               Login
             </button>
-
-            {/* Ссылки */}
             <div className="text-center">
               <Link
                 href="/"
@@ -143,8 +135,6 @@ export default function LoginPage() {
           Copyright 2023 All Rights Reserved
         </div>
       </div>
-
-      {/* Правая сторона */}
       <div className="hidden md:flex w-1/2 items-center justify-center p-12">
         <Image
           src="/Auth.svg"

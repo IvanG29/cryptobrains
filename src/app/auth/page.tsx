@@ -20,7 +20,6 @@ export default function SignUpPage() {
 
   return (
     <div className="flex min-h-screen flex-col md:flex-row text-white font-sans">
-      {/* Левая сторона: Форма регистрации */}
       <div className="flex w-full flex-col justify-center px-6 py-12 md:w-1/2 lg:px-20 xl:px-32">
         <div className="mx-auto w-full max-w-sm">
           <h2 className="text-[36px] font-semibold tracking-tight text-center md:text-center mb-8">
@@ -28,7 +27,6 @@ export default function SignUpPage() {
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-5">
-            {/* Имя и Фамилия в одну строку */}
             <div className="flex gap-4">
               <div className="flex-1">
                 <label
@@ -70,7 +68,6 @@ export default function SignUpPage() {
               </div>
             </div>
 
-            {/* Поле Телефон */}
             <div>
               <label
                 htmlFor="phone"
@@ -91,7 +88,6 @@ export default function SignUpPage() {
               />
             </div>
 
-            {/* Поле Email */}
             <div>
               <label
                 htmlFor="email"
@@ -112,7 +108,6 @@ export default function SignUpPage() {
               />
             </div>
 
-            {/* Поле Пароль */}
             <div>
               <label
                 htmlFor="password"
@@ -179,7 +174,6 @@ export default function SignUpPage() {
               </p>
             </div>
 
-            {/* Чекбокс соглашения */}
             <div className="flex items-start">
               <div className="flex h-5 items-center">
                 <input
@@ -203,7 +197,6 @@ export default function SignUpPage() {
               </div>
             </div>
 
-            {/* Кнопка отправки */}
             <button
               type="submit"
               className="w-full rounded-md bg-[#2563eb] py-3 text-sm font-medium text-white hover:bg-blue-600 focus:outline-hidden focus:ring-2 focus:ring-blue-500 transition-colors cursor-pointer"
