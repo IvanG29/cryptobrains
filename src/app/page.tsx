@@ -5,6 +5,13 @@ import { FAQItem } from "../components/FAQItem";
 import React, { useState } from "react";
 import Link from "next/link";
 
+const frameworkOptions = [
+  { value: 'react', label: 'React.js' },
+  { value: 'vue', label: 'Vue.js' },
+  { value: 'angular', label: 'Angular' },
+  { value: 'svelte', label: 'Svelte' },
+];
+
 export default function Home() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
