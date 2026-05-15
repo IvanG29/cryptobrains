@@ -21,7 +21,7 @@ export default function Footer() {
               <ul className="flex items-start gap-2">
                 <li>
                   <Link
-                    href="/login"
+                    href="/"
                     className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou"
                   >
                     <Image
@@ -34,7 +34,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/login"
+                    href="/"
                     className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou"
                   >
                     <Image
@@ -47,7 +47,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/login"
+                    href="/"
                     className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou"
                   >
                     <Image
@@ -60,7 +60,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/login"
+                    href="/"
                     className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou"
                   >
                     <Image
@@ -73,7 +73,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
-                    href="/login"
+                    href="/"
                     className="pb-2 border-colorCard hover:drop-shadow-[0_0_15px_rgba(88,101,242,0.9)] transition delay-150 duration-300 ease-in-ou"
                   >
                     <Image
@@ -100,12 +100,12 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="list-none text-base hover:text-blue-500/80">
-                  <Link href="/ourteam" className="pb-2">
+                  <Link href="/about/ourteam" className="pb-2">
                     Our Team
                   </Link>
                 </li>
                 <li className="list-none text-base hover:text-blue-500/80">
-                  <Link href="/roadmap" className="pb-2">
+                  <Link href="/about/roadmap" className="pb-2">
                     Road Map
                   </Link>
                 </li>
@@ -170,7 +170,7 @@ export default function Footer() {
               <h1 className="text-colorall text-xl font-semibold">Exchange</h1>
               <ul className="text-color mt-4">
                 <li className="list-none text-base hover:text-blue-500/80">
-                  <Link href="/p2p" className="pb-2">
+                  <Link href="/trade/p2p" className="pb-2">
                     P2P
                   </Link>
                 </li>
@@ -180,12 +180,12 @@ export default function Footer() {
                   </Link>
                 </li>
                 <li className="list-none text-base hover:text-blue-500/80">
-                  <Link href="/markets" className="pb-2">
+                  <Link href="/market" className="pb-2">
                     Markets
                   </Link>
                 </li>
                 <li className="list-none text-base hover:text-blue-500/80">
-                  <Link href="/affiliateprogram" className="pb-2">
+                  <Link href="/earn/affiliateprogram" className="pb-2">
                     Affiliate Program
                   </Link>
                 </li>

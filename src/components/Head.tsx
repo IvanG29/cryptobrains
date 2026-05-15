@@ -32,7 +32,7 @@ const navigationConfig = [
       {
         value: "affiliate",
         label: "Affiliate Program",
-        href: "/earn/affiliate",
+        href: "/earn/affiliateprogram",
       },
     ],
   },
@@ -41,7 +41,7 @@ const navigationConfig = [
     href: "/about",
     options: [
       { value: "about-us", label: "About Us", href: "/about" },
-      { value: "team", label: "Our Team", href: "/about/team" },
+      { value: "team", label: "Our Team", href: "/about/ourteam" },
       { value: "roadmap", label: "Road Map", href: "/about/roadmap" },
     ],
   },
