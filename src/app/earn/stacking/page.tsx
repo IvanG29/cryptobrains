@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Faq() {
+export default function Stacking() {
   return (
     <header>
       <main className="flex flex-col min-h-screen"></main>

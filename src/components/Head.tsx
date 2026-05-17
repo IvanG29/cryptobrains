@@ -28,7 +28,7 @@ const navigationConfig = [
     label: "Earn",
     href: "/earn",
     options: [
-      { value: "staking", label: "Staking", href: "/earn/staking" },
+      { value: "stacking", label: "Stacking", href: "/earn/stacking" },
       {
         value: "affiliate",
         label: "Affiliate Program",
